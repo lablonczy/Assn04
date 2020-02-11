@@ -6,7 +6,7 @@ public class GroceryStore {
 
 	}
 
-	public createCereal(String type){
+	private createCereal(String type){
 
 	}
 
