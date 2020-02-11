@@ -1,14 +1,28 @@
 package Assn04.Assn04;//lukacs ablonczy
 
-public class FrostedFlakes extends Cereal{
+/**
+ * Defines the FrostedFlakes cereal type
+ * @author Lukacs Ablonczy
+ */
+public class FrostedFlakes extends Cereal {
+	private static final String NAME = "Frosted Flakes";
+	private static final double PRICE = 2.99;
 
-	public FrostedFlakes(){
-		this.name = "Frosted Flakes";
-		this.price = 2.99;
+	/**
+	 * construct for FrostedFlakes cereal type. Sets name, price, and calls prepare, box, and price cereal functions
+	 */
+	public FrostedFlakes() {
+		this.name = NAME;
+		this.price = PRICE;
 		this.prepare();
+		this.boxCereal();
+		this.priceCereal();
 	}
 
-	public void prepare(){
+	/**
+	 * Defines FrostedFlakes prepare behavior, calls the supermethod
+	 */
+	public void prepare() {
 		super.prepare();
 		System.out.println("" +
 				"- Gather the grain\n" +
