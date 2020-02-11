@@ -5,6 +5,7 @@ public class FrostedFlakes extends Cereal{
 	public FrostedFlakes(){
 		this.name = "Frosted Flakes";
 		this.price = 2.99;
+		this.prepare();
 	}
 
 	public void prepare(){

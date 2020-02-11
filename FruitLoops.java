@@ -5,6 +5,7 @@ public class FruitLoops extends Cereal{
 	public FruitLoops(){
 		this.name = "Fruit Loops";
 		this.price = 1.89;
+		this.prepare();
 	}
 
 	public void prepare(){

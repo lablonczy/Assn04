@@ -5,6 +5,7 @@ public class LuckyCharms extends Cereal{
 	public LuckyCharms(){
 		this.name = "Lucky Charms";
 		this.price = 1.55;
+		this.prepare();
 	}
 
 	public void prepare(){
