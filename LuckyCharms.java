@@ -1,5 +1,13 @@
 package Assn04.Assn04;//lukacs ablonczy
 
-public class FrostedFlakes extends Cereal{
+public class LuckyCharms extends Cereal{
+
+	public LuckyCharms(){
+
+	}
+
+	public void prepare(){
+
+	}
 
 }
